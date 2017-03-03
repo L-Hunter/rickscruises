@@ -8,12 +8,12 @@ body {
 	font-size: 18px;
 }
 
-.container {
+/*.container {
 	background-size: cover;
 	min-height: 100vh;
 	min-width: 100vw;
 	position: relative;
-}
+}*/
 
 .container-index {
 	background: url("images/seefromthesky.jpg") no-repeat center center fixed;
@@ -23,21 +23,51 @@ body {
 	position: relative;
 }
 
-.container-about {
-	background: url("images/pineapples.jpg") no-repeat center center fixed;
-}
-
-.container-contact {
-	background: url("images/palms.jpg") no-repeat center center fixed;
-}
-
-.content{
+.content-index {
 	background-color: rgba(240,240,240,.7);
 	display: inline-block;
 	padding: 50px;
 	position: absolute;
-	right: 20%;
+	right: 25%;
+	width: 50%;
+	top: 60%;
+	border-radius: 5px;
+}
+
+.container-about {
+	background: url("images/pineapples.jpg") no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+}
+
+.content-about {
+	background-color: rgba(240,240,240,.7);
+	display: inline-block;
+	padding: 50px;
+	position: absolute;
+	right: 65%;
 	width: 25%;
-	top: 33%;
+	top: 50%;
+	border-radius: 5px;
+}
+
+.container-contact {
+	background: url("images/palms.jpg") no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100vw;
+	position: relative;
+}
+
+.content-contact {
+	background-color: rgba(240,240,240,.7);
+	display: inline-block;
+	padding: 50px;
+	position: absolute;
+	right: 25%;
+	width: 50%;
+	top: 20%;
 	border-radius: 5px;
 }
