@@ -26,12 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #FFFFFF;
 	color: #000000;
 }
-/*.container {
-	background-size: cover;
-	min-height: 100vh;
-	min-width: 100vw;
-	position: relative;
-}*/
 
 .container-index {
 	background: url("images/seefromthesky.jpg") no-repeat center center fixed;
@@ -88,4 +82,45 @@ h1, h2, h3, h4, h5, h6 {
 	width: 50%;
 	top: 20%;
 	border-radius: 5px;
+}
+
+@media all and (max-width: 1200px){
+
+	.content-about {
+		padding: 20px;
+		position: absolute;
+		top: 10%;
+	}
+}
+
+@media all and (max-width: 1100px){
+	
+	.content-index {
+		position: absolute;
+		right: 15%;
+		width: 70%;
+		top: 10%;
+	}
+}
+
+@media all and (max-width: 767px){
+
+	.content-index {
+		background-color: rgba(85,189,188,.7);
+		position: absolute;
+		right: 10%;
+		width: 80%;
+		top: 10%;
+	}
+
+	.content-contact {
+	/*	background-color: rgba(85,189,188,.9);
+		display: inline-block;*/
+		padding: 20px;
+		position: absolute;
+		right: 10%;
+		width: 80%;
+		top: 10%;
+	/*	border-radius: 5px;*/
+	}
 }
